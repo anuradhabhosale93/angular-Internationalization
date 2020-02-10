@@ -28,6 +28,13 @@
             "scripts": []
           },
           "configurations": {
+            "hi": {     
+               "aot": true,    
+               "i18nFile": "src/translate/messages.hi.xlf",    
+               "i18nFormat": "xlf",    
+               "i18nLocale": "hi",     
+               "i18nMissingTranslation": "error" 
+               },
             "production": {
               "fileReplacements": [
                 {
@@ -60,6 +67,7 @@
             "browserTarget": "testing-demo-inter:build"
           },
           "configurations": {
+            "hi": {      "browserTarget": "testing-demo-inter:build:hi"    } ,
             "production": {
               "browserTarget": "testing-demo-inter:build:production"
             }
